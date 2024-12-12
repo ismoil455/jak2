@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:  "Poppins", sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+span{
+    color:#00EEFF ;
+
+}
+li{
+    transition: 1s;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+.img11{
+    display: none;
+}
+header{
+    background-color: #1F242D;
+}
+li:hover{
+    color: #00EEFF;
+    font-size: large;
+}
+.section{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: space-between;
+}
+.bigbox{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 450px;
+}
+.matn{
+   display: flex;
+   flex-direction: column;
+   color: white;
+   gap: 5px;
+}
+.matn h3{
+   font-size: xx-large;
+}
+
+.matn h1{
+   font-size:46px;
+
+}
+.imgbox{
+    display: flex;
+    gap: 30px;
+}
+.bigbox button{
+    width: 170px;
+    background-color: #00EEFF;
+    box-shadow: 1px 1px 10px 1px #00EEFF;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    font-size: medium;
+}
+main{
+    background-color: #1F242D;
+    color: white;
+}
+.sarlavha{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 40px;
+}
+.sarlavha h1{
+    font-size: 46px;
+    
+}.big_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 200px;
+}
+.medbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #323946;
+    height: 350px;
+    justify-content: center;
+    border-radius: 20px;
+    width: 370px;
+    padding: 30px;
+    row-gap: 15px;
+}
+.medbox p{
+    width: 250px;
+}
+.medbox button{
+    width: 200px;
+    height: 55px;
+    border-radius: 27px;
+    border: none;
+    background-color: #00EEFF;
+    font-size: large;
+    font-weight: bold;
+}
+section{
+    background-color: #323946;
+}
+.big-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.big-box img{
+    width: 360px;
+    border-radius: 25px;
+}
+form{
+    background-color: #1F242D;
+    padding: 60px;
+    padding-bottom: 100px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.input_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 900px;
+}
+input{
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #323946;
+}
+textarea{
+    width: 815px;
+    background-color: #323946;
+    height:200px ;
+    border-radius: 10px;
+    border:none;
+}
+.form button{
+    width: 200px;
+    height:35px;
+    border: none;
+    border-radius: 10px;
+    background: #00EEFF;
+    margin-top: 30px;
+    font-weight: bold;
+}
+footer{
+    background-color: #323946;
+}
+.foot{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+@media(max-width:1214px){
+    .big_box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    li{
+        display: none;
+    }
+    .img11{
+        display: flex;
+    }
+    .f1{
+        width: 790px;
+    }
+}
+@media(max-width:1140px){
+    .big_box{
+        width: 800px;
+    }
+    .medbox{
+        width: 300px;
+        height: 330px;
+
+    }
+    .medbox h1{
+        font-size: medium;
+    }
+    .medbox p{
+        font-size: small;
+    }
+    .medbox button{
+        width: 150px;
+        height: 30px;
+        font-weight: 200;
+        font-size: medium;
+    }
+    .big-box img{
+        width: 300px;
+    }
+    .f1{
+        width: 645px;
+    }
+}
+@media(max-width:1000px){
+    .form{
+        width:800px;
+    }
+    .input_box{
+        width: 750px;
+    }
+    input{
+        width: 300px;
+    }
+    textarea{
+        width: 615px;
+    }
+    form{
+        padding: 0;
+    }
+}
+@media(max-width:800px){
+    .section{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+    .big_box{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+    .medbox{
+        width: 400px;
+    }
+    .f1{
+        width: 400px;
+    }
+    .form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 650px;
+    }
+    .input_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+
+    }
+    textarea{
+        width: 300px;
+    }
+}
